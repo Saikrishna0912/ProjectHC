@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .Con{
+        height: 140px;
+            background-color: #00cba9;
+            display: flex;
+            border-radius: 20px;
+            margin-left: 30%;
+            width: 50%;
+            justify-content: center;
+            margin-top: 90px;
+
+}
+.Con1 img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Con2 p{
+            font-size: 50px;
+            color: white;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        .Contact{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+       .Contact1{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        border: 1px solid lightgrey;
+        background-color: lightgrey;
+        width: 501px;
+        gap: 1px;
+        height: 350px;
+       }
+       .Contact1 div{
+        background-color:white;
+       }
+       .Sgrid{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 10px;
+       }
+       .SFW,.SFB,.SFEC,.SFEO{
+        border: 2px solid  lightgray;
+        border-radius: 40px;
+        padding: 5px;
+       }
+       .SFW,.SFB{
+        width: 60px;
+       }
+       .SFEC{
+        width: 80px;
+       }
+       .SFEO{
+        width: 30px;
+       }
+       .SCflex{
+        display: flex;
+        gap: 20px;
+       }
+       .SCimg img{
+        height: 15px;
+        width: 15px;
+        padding: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 50%;
+       }
+       .Services,.Stcon,.Stap,.Abt,.emai,.cla{
+        margin-left: 20px;
+       }
+       .emai{
+        margin-top: 50px;
+       }
+       .cla{
+        margin-top: 45px;
+       }
+       .Contact2{
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px;
+        width: 500px;
+        justify-content: space-around;
+       }
+       .Contact2 div{
+        background-color: white;
+        border: 1px solid lightgrey;
+       }
+       .nme{
+        grid-column: 1/3 ;
+        height: 70px;
+       }
+       .emad{
+        grid-column: 3/5;
+        height: 70px;
+       }
+       .Tmatp{
+        grid-column: 1/5;
+        height: 70px;
+        margin-top: -20px;
+       }
+       .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+        margin-top: 20px;
+       }
+       .icon img{
+        height: 25px;
+        width: 25px;
+        margin-left: 50px;
+        margin-top: 20px;
+       }
+       .icon p{
+        margin-left: 30px;
+        color: grey;
+        font-size: large;
+       }
+       .emad p,  .nme p{
+        margin-left: 20px;
+        font-size: large;
+        color: grey;
+       }
+       .Tmatp p{
+        color: grey;
+        margin-left: 20px;
+        font-size: large;
+       }
+       .Tmatp{
+        margin-top: 20px;
+       }
+       .send{
+        margin-left: 420px;
+        border-radius: 30px;
+        height: 30px;
+        width: 50px;
+        padding: 6px;
+        font-size: large;
+        font-weight: bold;
+           }
+       .Footer{
+        text-align: center;
+        padding: 30px;
+        background-color: whitesmoke;
+        margin-top: 90px;
+        color: grey;
+       }
+    
+        @media screen and (max-width: 480px) {
+    .Con{
+        height: 100px;
+            background-color: #00cba9;
+            display: flex;
+            border-radius: 20px;
+            margin-left: 10px;
+            width: 90%;
+            justify-content: center;
+}
+.Con1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Con2 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        .Contact{
+            display: flex;
+            gap: 30px;
+            margin-top: 100px;
+            flex-direction: column;
+            margin-left: 2%;
+       }
+       .Contact1{
+        display: grid;
+        grid-template-columns: 160px 160px;
+        border: 1px solid lightgrey;
+        background-color: lightgrey;
+        width: 321px;
+        gap: 1px;
+        height: 365px;
+    }
+    .Contact1 div{
+        background-color:white;
+       }
+       .Sgrid{
+        display: grid;
+        grid-template-columns: 60px 60px;
+        gap: 15px;
+       }
+       .SFW,.SFB,.SFEC,.SFEO{
+        border: 2px solid  lightgray;
+        border-radius: 40px;
+        padding: 5px;
+       }
+       .SFW,.SFB{
+        width: 60px;
+       }
+       .SFEC{
+        width: 80px;
+       }
+       .SFEO{
+        width: 30px;
+        margin-left: 30px;
+       }
+       .SCflex{
+        display: flex;
+        gap: 20px;
+       }
+       .SCimg img{
+        height: 10px;
+        width: 10px;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 50%;
+       }
+       .Services,.Stcon,.Stap,.Abt,.emai,.cla{
+        margin-left: 5px;
+       }
+       .emai{
+        margin-top: 50px;
+       }
+       .cla{
+        margin-top: 45px;
+       }
+       .Contact2{
+        display: grid;
+        grid-template-columns: 70px 70px 70px 70px;
+        width: 321px;
+        justify-content: space-around;
+        gap: 10px;
+       }
+       .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+        margin-top: 20px;
+       }
+       .icon img{
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+       }
+       .icon p{
+        margin-left: 5px;
+        color: grey;
+        font-size: small;
+       }
+       .emad p,  .nme p{
+        margin-left: 10px;
+        color: grey;
+       }
+       .emai{
+        margin-top: 30px;
+       }
+       .cla{
+        margin-top: 40px;
+       }
+       .send{
+        margin-left: 200px;
+    }
+}
+    
+    </style>
+</head>
+<body>
+    <div class="Con">
+        <div class="Con1"><img src="./aerial-view-man-using-computer-laptop-wooden-table.jpg" alt=""></div>
+        <div class="Con2"><p>Say Hi</p></div>
+    </div>
+
+
+    <div class="Contact">
+        <div class="Contact1">
+            <div class="Contact1-1">
+                <div class="Services">
+                    <div><h3>SERVICES</h3></div>
+                    <div class="Sgrid">
+                        <div class="SFW">Websites</div>
+                        <div class="SFB">Branding</div>
+                        <div class="SFEC">Ecommerce</div>
+                        <div class="SFEO">SEO</div>
+                    </div>
+                </div>
+                <div class="Stcon">
+                    <div><h3>STAY CONNECTED</h3></div>
+                    <div class="SCflex">
+                        <div class="SCimg"><img src="./twitter.png" alt=""></div>
+                        <div class="SCimg"><img src="./instagram.png" alt=""></div>
+                        <div class="SCimg"><img src="./pinterest.png" alt=""></div>
+                        <div class="SCimg"><img src="./youtube.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="Stap">
+                    <div><h3>START A PROJECT</h3></div>
+                    <div>I'm available for freelance projects.</div>
+                </div>
+            </div>
+            <div class="Contact1-2">
+                <div class="Abt">
+                    <div><h3>ABOUT</h3></div>
+                    <div>Joshua is professional web developer. <br>Feel free to get in touch with me.</div>
+                </div>
+                <div class="emai">
+                    <div><h3>EMAIL</h3></div>
+                    <div>hello@josh.design</div>
+                </div>
+                <div class="cla">
+                    <div><h3>CALL</h3></div>
+                    <div>120-240-9600</div>
+                </div>
+            </div>
+        </div>
+        <div class="Contact2">
+            <div class="nme"><p>Name</p></div>
+            <div class="emad"><p>Email address</p></div>
+            <div class="icon"><img src="./languageicon.png" alt=""><p>Websites</p></div>
+            <div class="icon"><img src="./bulbicon.png" alt=""><p>Branding</p></div>
+            <div class="icon"><img src="./mobileicon.png" alt=""><p>Ecommerce</p></div>
+            <div class="icon"><img src="./googleicon.png" alt=""><p class="seo">SEO</p></div>
+            <div class="Tmatp"><p>Tell me about the project</p></div>
+            <div class="send">Send</div>
+        </div>
+    
+    </div>
+
+
+    <div class="Footer">Copyright First Portfolio Company.All rights reserved  Design:TemplateMo</div>
+  
+    
+    
+
+
+
+</body>
+</html>

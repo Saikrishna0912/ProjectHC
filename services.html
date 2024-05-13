@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .headser{
+            height: 140px;
+            background-color: #00cba9;
+            width: 70%;
+            display: flex;
+            border-radius: 30px;
+            justify-content: center;
+            margin-left: 200px;
+            margin-top: 100px;
+        }
+        .headser1 img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .headser2 p{
+            font-size: 60px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+        .sec{
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 350px 350px;
+            grid-template-rows: 420px 420px;
+            justify-content: center;
+            gap: 30px;
+        }
+        .sec1{
+            background-color: white;
+            border: 2px solid rgb(249, 245, 245);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .sec1p{
+            padding: 20px;
+        }
+        .sec1-1{
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec1-1-2 p{
+            border-radius: 20px;
+            background-color: blueviolet;
+            height: 12px;
+            width: 50px;
+            color: white;
+            padding: 8px;
+        }
+        .sec1b p{
+            border-radius: 10px;
+            background-color: white;
+            width: 120px;
+            padding: 5px;
+            opacity: 0.8px;
+            border: 2px solid lightgray;
+            margin-left: 20px;
+            opacity: 0.6;
+            font-weight: bold;
+        }
+        .sec1b1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 10px;
+            padding: 60px;
+            transform: rotate(-30deg);
+            margin-left: 200px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .headser{
+            height: 100px;
+            background-color: #00cba9;
+            width: 80%;
+            display: flex;
+            border-radius: 30px;
+            margin-left: 20px;
+            }
+        .headser1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+        .headser2 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+        .sec{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="headser">
+        <div class="headser1"><img src="./handshake-man-woman-after-signing-business-contract-closeup.jpg" alt=""></div>
+        <div class="headser2"><p>Services</p></div>
+    </div>
+
+    <div class="sec">
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Websites</h2>
+                </div>
+                <div class="sec1-1-2"><p>$2,400</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./languageicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Branding</h2>
+                </div>
+                <div class="sec1-1-2"><p>$1,200</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./bulbicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Ecommerce</h2>
+                </div>
+                <div class="sec1-1-2"><p>$3,600</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./mobileicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>SEO</h2>
+                </div>
+                <div class="sec1-1-2"><p>$1,450</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./googleicon.png" alt=""></div>
+        </div>
+    </div>
+
+</body>
+</html>

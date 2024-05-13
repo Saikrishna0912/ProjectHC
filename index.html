@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .bg{
+            background-image: url(./background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+        }
+        .div1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0px;
+        }
+        .div2 {
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            padding: 20px;
+            margin-left: 100px;
+        }
+        .div5{
+            display: flex;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .div5 a{
+            text-decoration: none;
+            color: white;
+        }
+        .div4{
+            color: white;
+            font-size: xx-large;
+            display:inline;
+            font-weight: bold;
+        }
+        .div3{
+            display: flex;
+            gap: 30px;
+            margin-right: 100px;
+        }
+        .div3 p{
+            color: white;
+            margin-top: 20px;
+            border-radius: 30px;
+            padding: 8px;
+            border: 2px solid white;
+        }
+        .div3 img{
+            border-radius: 50%;
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+        }
+
+        .Hello{
+            margin-top: 150px;
+        }
+        .Helloimg img{
+            border-radius: 50%;
+            margin-left: 50px;
+            height: 80px;
+            width: 80px;
+        }
+        .Hellop1 p{
+            border-radius: 30px;
+            background-color: white;
+            width: 170px;
+            text-align: center;
+            padding: 5px;
+            font-weight:bolder;
+            font-size: x-large;
+            margin-top: 10px;
+            margin-left: 10px;
+            
+        }
+        .Hellop2 p{
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            width: 300px;
+            border-radius: 30px;
+            background-color: white;
+            text-align: center;  
+            padding: 10px;
+            margin-left: 50px;
+            margin-top: 10px;
+            color:  #00cba9;
+        }
+        .Hellop3 p{
+            width: 100px;
+            color: white;
+            background-color: #000b76;
+            border-radius: 30px;
+            text-align: center;
+            padding: 5px;
+            margin-left: 50px;
+
+        }
+        .Hlo{
+            display: flex;
+        }
+        .HelloBw{
+            background-color: white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+
+        .section{
+            display: flex;
+            justify-content: space-around;
+        }
+        .maindiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+        }
+        .round1{
+            background-color: white;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+            margin-left: 30px;
+        }
+        .image img{
+            margin-top: -250px;
+            height: 300px;
+            width: 400px;
+        }
+
+
+        #about1{
+            display: grid;
+            grid-template-columns:auto auto;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+.about2 img{
+    border-radius: 20px;
+}
+.about4{
+    display: flex;
+    border-radius: 10px;
+    background-color: #00cba9;
+    justify-content: center;
+    width: 500px;    
+    height: 130px;
+    align-items: center;
+    gap: 20px;
+}
+.about4-1 p{
+    font-size: 40px;
+    font-weight: large;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px; 
+}
+.about4-2 img{
+    border-radius: 50%;
+    align-self: center;
+}
+    .about5 p{
+        opacity: 0.8; 
+        font-size: large;   
+    }
+    .mainbox{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            padding: 100px;
+            border: 1px solid lightgray;
+            margin-top: 100px;
+            border-left: none;
+            border-right: none;
+        }
+        .box1{
+            display: grid;
+            grid-template-columns: 100px 400px;
+            width: 501px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            overflow: hidden;
+            gap: 1px;
+            background-color: lightgray;
+        }
+        .box1 div{
+            background-color: white;
+            padding: 10px;
+        }
+        .item{
+            grid-column: 1/3;
+        }
+        .item span{
+            font-weight: bold;
+            font-size: larger;
+            margin-left: 10px;
+        }
+        .item1 span{
+            color:  #00cba9;
+            margin-left: 10px;
+        }
+        .item2 span{
+            color: grey;
+            margin-left: 10px;
+        }
+
+        .box2{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1px;
+            background-color: lightgray;
+            width: 30%;
+        }
+        .box2 div{
+            padding: 10px;
+            background-color: white;
+        }
+        .Num{
+            font-size: xx-large;
+        }
+        .Alpha{
+            color:  #00cba9;
+        }
+.company{
+    padding: 60px;
+    border-bottom: 2px solid lightgray;
+}
+.company1 h2{
+    text-align: center;
+    font-weight: bold;
+}
+.company2{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px;
+}
+.company2 img{
+    height: 150px;
+    width: 150px;
+}
+#headser{
+            height: 140px;
+            background-color: #00cba9;
+            width: 70%;
+            display: flex;
+            border-radius: 30px;
+            justify-content: center;
+            margin-left: 200px;
+            margin-top: 100px;
+        }
+        .headser1 img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .headser2 p{
+            font-size: 60px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+        .sec{
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 350px 350px;
+            grid-template-rows: 420px 420px;
+            justify-content: center;
+            gap: 30px;
+        }
+        .sec1{
+            background-color: white;
+            border: 2px solid rgb(249, 245, 245);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .sec1p{
+            padding: 20px;
+        }
+        .sec1-1{
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec1-1-2 p{
+            border-radius: 20px;
+            background-color: blueviolet;
+            height: 12px;
+            width: 50px;
+            color: white;
+            padding: 8px;
+        }
+        .sec1b p{
+            border-radius: 10px;
+            background-color: white;
+            width: 120px;
+            padding: 5px;
+            opacity: 0.8px;
+            border: 2px solid lightgray;
+            margin-left: 20px;
+            opacity: 0.6;
+            font-weight: bold;
+        }
+        .sec1b1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 10px;
+            padding: 60px;
+            transform: rotate(-30deg);
+            margin-left: 200px;
+        }
+
+        #Pro{
+            height: 140px;
+            background-color: #00cba9;
+            width: 50%;
+            display: flex;
+            border-radius: 30px;
+            justify-content: center;
+            margin-left: 40rem;
+            margin-top: 90px;
+
+        }
+        .Pro1 img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Pro2 p{
+            font-size: 60px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+        .Project{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .Branding{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid lightgray;
+            height: 400px;
+            width: 350px;
+            padding: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .Branding .B1 p{
+            color:  #00cba9;
+            font-size: large;
+            margin-left: 20px;
+        }
+        .Branding .B2 p{
+            font-size: x-large;
+            font-weight: bolder;
+            margin-left: 20px;
+        }
+
+       .B3 img{
+        margin-top: 30px;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        transform: rotate(10deg);
+        margin-left: 20px;
+       }
+       #Con{
+        height: 140px;
+            background-color: #00cba9;
+            display: flex;
+            border-radius: 20px;
+            margin-left: 40px;
+            width: 50%;
+            justify-content: center;
+            margin-top: 90px;
+
+}
+.Con1 img{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Con2 p{
+            font-size: 50px;
+            color: white;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        .Contact{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+       .Contact1{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        border: 1px solid lightgrey;
+        background-color: lightgrey;
+        width: 501px;
+        gap: 1px;
+        height: 350px;
+       }
+       .Contact1 div{
+        background-color:white;
+       }
+       .Sgrid{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 10px;
+       }
+       .SFW,.SFB,.SFEC,.SFEO{
+        border: 2px solid  lightgray;
+        border-radius: 40px;
+        padding: 5px;
+       }
+       .SFW,.SFB{
+        width: 60px;
+       }
+       .SFEC{
+        width: 80px;
+       }
+       .SFEO{
+        width: 30px;
+       }
+       .SCflex{
+        display: flex;
+        gap: 20px;
+       }
+       .SCimg img{
+        height: 15px;
+        width: 15px;
+        padding: 10px;
+        border: 1px solid lightgrey;
+        border-radius: 50%;
+       }
+       .Services,.Stcon,.Stap,.Abt,.emai,.cla{
+        margin-left: 20px;
+       }
+       .emai{
+        margin-top: 50px;
+       }
+       .cla{
+        margin-top: 45px;
+       }
+       .Contact2{
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px;
+        width: 500px;
+        justify-content: space-around;
+       }
+       .Contact2 div{
+        background-color: white;
+        border: 1px solid lightgrey;
+       }
+       .nme{
+        grid-column: 1/3 ;
+        height: 70px;
+       }
+       .emad{
+        grid-column: 3/5;
+        height: 70px;
+       }
+       .Tmatp{
+        grid-column: 1/5;
+        height: 70px;
+        margin-top: -20px;
+       }
+       .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+        margin-top: 20px;
+       }
+       .icon img{
+        height: 25px;
+        width: 25px;
+        margin-left: 50px;
+        margin-top: 20px;
+       }
+       .icon p{
+        margin-left: 30px;
+        color: grey;
+        font-size: large;
+       }
+       .emad p,  .nme p{
+        margin-left: 20px;
+        font-size: large;
+        color: grey;
+       }
+       .Tmatp p{
+        color: grey;
+        margin-left: 20px;
+        font-size: large;
+       }
+       .Tmatp{
+        margin-top: 20px;
+       }
+       .send{
+        margin-left: 420px;
+        border-radius: 30px;
+        height: 30px;
+        width: 50px;
+        padding: 6px;
+        font-size: large;
+        font-weight: bold;
+           }
+       .Footer{
+        text-align: center;
+        padding: 30px;
+        background-color: whitesmoke;
+        margin-top: 90px;
+        color: grey;
+       }
+        @media screen and (max-width: 480px){
+            .div2 {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            padding: 10px;
+            margin-left: 0px;
+        }
+        .div5{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .div3{
+            margin-left: 30px;
+        }
+        .div3 p{
+            height: 20px;
+            width: 100px;
+        }
+        .Hlo{
+            margin-top: -100px;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .round1{
+            background-color: white;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            margin-left: 80px;
+        }
+        .image img{
+            margin-top: -250px;
+            height: 200px;
+            width: 300px;
+            margin-left: 50px;
+        }
+        .bg{
+            background-image: url(./background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 750px;
+    }
+    .Hello{
+        margin-left: -20px;
+    }
+
+    #about1{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .about2 img{
+            width: 350px;
+        }
+        .about4{
+            width: 350px;
+            height: 100px;
+        }
+        .about4 p{
+            font-size: 30px;
+            margin-left: -10px;
+        }
+        .about4 img{
+            height: 80px;
+            width: 80px;
+        }
+        .about5 p{
+        opacity: 0.8; 
+        font-size: medium; 
+    }
+    .mainbox{
+            display: flex;
+            flex-direction: column;
+            margin-left: -70px;
+}
+.box1{
+            display: grid;
+            grid-template-columns: 100px 200px;
+            width: 301px;
+}
+.box2{
+            display: grid;
+            grid-template-columns: 149px 149px;
+            gap: 1px;
+            width: 290px;
+}
+.company2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+            #headser{
+            height: 100px;
+            background-color: #00cba9;
+            width: 80%;
+            display: flex;
+            border-radius: 30px;
+            margin-left: 20px;
+            }
+        .headser1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+        .headser2 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+        .sec{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        #Pro{
+        height: 100px;
+            background-color: #00cba9;
+            display: flex;
+            border-radius: 20px;
+            margin-left: 10px;
+            width: 90%;
+}
+.Pro1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Pro2 p{
+            font-size: 40px;
+            color: white;
+            font-weight: bolder;
+            margin-top: 24px;
+        }
+
+        .Project{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 50px;
+            flex-direction: column;
+            
+        }
+        .Branding{
+            display: flex;
+            border: 1px solid lightgray;
+            height: 300px;
+            width: 60%;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        .Branding .B1 p{
+            color:  #00cba9;
+            font-size:medium;
+            margin-left: 20px;
+        }
+        .Branding .B2 p{
+            font-size: large;
+            font-weight: bolder;
+            margin-left: 20px;
+        }   
+
+       .B3 img{
+        margin-top: 30px;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        transform: rotate(10deg);
+        margin-left: 10px;
+       }
+       #Con{
+        height: 100px;
+            background-color: #00cba9;
+            display: flex;
+            border-radius: 20px;
+            margin-left: 10px;
+            width: 90%;
+            justify-content: center;
+}
+.Con1 img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .Con2 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        .Contact{
+            display: flex;
+            gap: 30px;
+            margin-top: 100px;
+            flex-direction: column;
+            margin-left: 2%;
+       }
+       .Contact1{
+        display: grid;
+        grid-template-columns: 160px 160px;
+        border: 1px solid lightgrey;
+        background-color: lightgrey;
+        width: 321px;
+        gap: 1px;
+        height: 365px;
+    }
+    .Contact1 div{
+        background-color:white;
+       }
+       .Sgrid{
+        display: grid;
+        grid-template-columns: 60px 60px;
+        gap: 15px;
+       }
+       .SFW,.SFB,.SFEC,.SFEO{
+        border: 2px solid  lightgray;
+        border-radius: 40px;
+        padding: 5px;
+       }
+       .SFW,.SFB{
+        width: 60px;
+       }
+       .SFEC{
+        width: 80px;
+       }
+       .SFEO{
+        width: 30px;
+        margin-left: 30px;
+       }
+       .SCflex{
+        display: flex;
+        gap: 20px;
+       }
+       .SCimg img{
+        height: 10px;
+        width: 10px;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 50%;
+       }
+       .Services,.Stcon,.Stap,.Abt,.emai,.cla{
+        margin-left: 5px;
+       }
+       .emai{
+        margin-top: 50px;
+       }
+       .cla{
+        margin-top: 45px;
+       }
+       .Contact2{
+        display: grid;
+        grid-template-columns: 70px 70px 70px 70px;
+        width: 321px;
+        justify-content: space-around;
+        gap: 10px;
+       }
+       .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80px;
+        margin-top: 20px;
+       }
+       .icon img{
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+       }
+       .icon p{
+        margin-left: 5px;
+        color: grey;
+        font-size: small;
+       }
+       .emad p,  .nme p{
+        margin-left: 10px;
+        color: grey;
+       }
+       .emai{
+        margin-top: 30px;
+       }
+       .cla{
+        margin-top: 40px;
+       }
+       .send{
+        margin-left: 200px;
+    }
+} 
+        
+    </style>
+</head>
+<body>
+    <div class="bg">
+     <div class="div1">
+        <div class="div2">
+            <div class="div4">
+                First
+            </div>
+            <div class="div5">
+                <a href="">HOME</a>
+                <a href="#about1">ABOUT</a>
+                <a href="#headser">SERVICES</a>
+                <a href="#Pro">PROJECTS</a>
+                <a href="#Con">CONTACT</a>
+            </div>
+        </div>
+        <div class="div3">
+            <div>
+            <img src="./callicon.png" alt="">
+           </div>
+           <p> 120-240-9600</p>   
+        </div>
+    </div>
+<div class="section">
+    <div class="Hello">
+        <div class="Hello1">
+            <div class="Hlo">
+            <div class="Helloimg">
+            <img src="./happy-bearded-young-man.jpg" alt=""></div>
+            <div class="Hellop1">
+            <p>Hello friend!</p></div>
+        </div>
+            <div class="Hellop2">
+            <p>I'm available for freelance work.</p></div>
+            <div class="Hellop3">
+            <p>Let's begin</p></div>
+        </div>
+        <div class="Hello2"></div>
+    </div>
+
+
+
+    <div class="maindiv">
+        <div class="round1"></div>
+            <div class="image">
+                <img src="./portrait-happy-excited-man-holding-laptop-computer.png" alt="">
+        </div>
+       </div>
+    </div>
+</div>
+
+
+
+
+<div id="about1"> 
+        <div class="about2">
+            <img src="./couple-working-from-home-together-sofa.jpg" alt="" height="auto" width="500px">
+        </div>
+        <div class="about3">
+            <div class="about4">
+                <div class="about4-1">
+                    <p>My Story</p>
+                </div>
+                <div class="about4-2"> <img src="./happy-bearded-young-man.jpg" alt="" height="100px" width="120px"></div>
+            </div>
+            <div class="about5">
+                <p><h2>a little bit about Josua</h2></p>
+                <p>This one-page HTML portfolio is provided by TemplateMo.This layout <br> is based on Bootstrap v5.1.3 CSS and JS libraries. Image credits go to <br>Unsplash and FreePik for images used in this page.
+                   <br> You are allowed to use this template for your websites. You are not <br>allowed to redistribute the template ZIP file on any other website. <br>Please contact us for more info.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="mainbox">
+        <div class="box1">
+            <div class="item"><span>Information</span></div>
+            <div class="item1"><span>Name</span></div>
+            <div class="item2"><span>Joshua Morgan</span></div>
+            <div class="item1"><span>Birthday</span></div>
+            <div class="item2"><span>Aug12, 1986</span></div>
+            <div class="item1"><span>Phone</span></div>
+            <div class="item2"><span>120-240-9600</span></div>
+            <div class="item1"><span>Email</span></div>
+            <div class="item2"><span>hello@josh.design</span></div>
+        </div>
+    
+        <div class="box2">
+            <div class="YOE">
+                <div class="Num">20+</div>
+                <div class="Alpha"> Years of Experiences</div>
+            </div>
+            <div class="HC">
+                <div class="Num">245</div>
+                <div class="Alpha"> Happy Customers</div>
+            </div>
+            <div class="PF">
+                <div class="Num">640</div>
+                <div class="Alpha">Project Finished</div>
+            </div>
+            <div class="DA">
+                <div class="Num">72+</div>
+                <div class="Alpha">Digital Awards</div>
+            </div>
+    
+        </div>
+    
+    
+    
+    </div>
+
+
+
+    <div class="company">
+        <div class="company1"><h2>Companies I've had worked</h2>
+        </div>
+        <div class="company2">
+            <div><img src="./clients/cachet.svg"alt=""></div>
+            <div><img src="./clients/guitar-center.svg" alt=""></div>
+            <div><img src="./clients/profil-rejser.svg" alt=""></div>
+            <div><img src="./clients/shopify.svg" alt=""></div>
+            <div><img src="./clients/tokico.svg" alt=""></div>
+        </div>
+    </div>
+
+
+    <div id="headser">
+        <div class="headser1"><img src="./handshake-man-woman-after-signing-business-contract-closeup.jpg" alt=""></div>
+        <div class="headser2"><p>Services</p></div>
+    </div>
+
+    <div class="sec">
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Websites</h2>
+                </div>
+                <div class="sec1-1-2"><p>$2,400</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./languageicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Branding</h2>
+                </div>
+                <div class="sec1-1-2"><p>$1,200</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./bulbicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>Ecommerce</h2>
+                </div>
+                <div class="sec1-1-2"><p>$3,600</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./mobileicon.png" alt=""></div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1-1">
+                <div class="sec1-1-1"> <h2>SEO</h2>
+                </div>
+                <div class="sec1-1-2"><p>$1,450</p></div>
+            </div>
+            <hr width="80%" style="opacity: 0.4;">
+            <div class="sec1p"><p>You may want to explore Too CSS for great collection of free  HTML CSS templates. </p></div>
+            <div class="sec1b"><p>Discover More</p></div>
+            <div class="sec1b1"><img src="./googleicon.png" alt=""></div>
+        </div>
+    </div>
+    <div id="Pro">
+        <div class="Pro1"><img src="./white-desk-work-study-aesthetics.jpg" alt=""></div>
+        <div class="Pro2"><p>Projects</p></div>
+    </div>
+    <div></div>
+
+    <div class="Project">
+
+        <div class="Branding">
+            <div class="B1"><p>BRANDING</p></div>
+            <div class="B2"><p>Zoik agency</p></div>
+            <div class="B3"><img src="./nikhil-KO4io-eCAXA-unsplash.jpg" alt=""></div>
+
+        </div>
+
+        <div class="Branding">
+            <div class="B1"><p>PHOTOGRAPHY</p></div>
+            <div class="B2"><p>The Watch</p></div>
+            <div class="B3"><img src="./the-5th-IQYR7N67dhM-unsplash.jpg" alt=""></div>
+
+        </div>
+
+        <div class="Branding">
+            <div class="B1"><p>WEBSITE</p></div>
+            <div class="B2"><p>POLO</p></div>
+            <div class="B3"><img src="./true-agency-9Bjog5FZ-oc-unsplash.jpg" alt=""></div>
+
+        </div>
+    </div>
+
+
+    <div id="Con">
+        <div class="Con1"><img src="./aerial-view-man-using-computer-laptop-wooden-table.jpg" alt=""></div>
+        <div class="Con2"><p>Say Hi</p></div>
+    </div>
+
+
+    <div class="Contact">
+        <div class="Contact1">
+            <div class="Contact1-1">
+                <div class="Services">
+                    <div><h3>SERVICES</h3></div>
+                    <div class="Sgrid">
+                        <div class="SFW">Websites</div>
+                        <div class="SFB">Branding</div>
+                        <div class="SFEC">Ecommerce</div>
+                        <div class="SFEO">SEO</div>
+                    </div>
+                </div>
+                <div class="Stcon">
+                    <div><h3>STAY CONNECTED</h3></div>
+                    <div class="SCflex">
+                        <div class="SCimg"><img src="./twitter.png" alt=""></div>
+                        <div class="SCimg"><img src="./instagram.png" alt=""></div>
+                        <div class="SCimg"><img src="./pinterest.png" alt=""></div>
+                        <div class="SCimg"><img src="./youtube.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="Stap">
+                    <div><h3>START A PROJECT</h3></div>
+                    <div>I'm available for freelance projects.</div>
+                </div>
+            </div>
+            <div class="Contact1-2">
+                <div class="Abt">
+                    <div><h3>ABOUT</h3></div>
+                    <div>Joshua is professional web developer. <br>Feel free to get in touch with me.</div>
+                </div>
+                <div class="emai">
+                    <div><h3>EMAIL</h3></div>
+                    <div>hello@josh.design</div>
+                </div>
+                <div class="cla">
+                    <div><h3>CALL</h3></div>
+                    <div>120-240-9600</div>
+                </div>
+            </div>
+        </div>
+        <div class="Contact2">
+            <div class="nme"><p>Name</p></div>
+            <div class="emad"><p>Email address</p></div>
+            <div class="icon"><img src="./languageicon.png" alt=""><p>Websites</p></div>
+            <div class="icon"><img src="./bulbicon.png" alt=""><p>Branding</p></div>
+            <div class="icon"><img src="./mobileicon.png" alt=""><p>Ecommerce</p></div>
+            <div class="icon"><img src="./googleicon.png" alt=""><p class="seo">SEO</p></div>
+            <div class="Tmatp"><p>Tell me about the project</p></div>
+            <div class="send">Send</div>
+        </div>
+    
+    </div>
+
+
+    <div class="Footer">Copyright First Portfolio Company.All rights reserved  Design:TemplateMo</div>
+  
+    
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
